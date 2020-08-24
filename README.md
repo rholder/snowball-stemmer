@@ -1,8 +1,8 @@
-##What is this?
+## What is this?
 This is a repackaging of a version of the snowball-stemmer found at http://snowball.tartarus.org/ so that it's available
 on Maven Central.
 
-##Maven
+## Maven
 ```xml
 <dependency>
   <groupId>com.github.rholder</groupId>
@@ -11,18 +11,18 @@ on Maven Central.
 </dependency>
 ```
 
-##Gradle
+## Gradle
 ```groovy
 compile "com.github.rholder:snowball-stemmer:1.3.0.581.1"
 ```
 
-##Versioning
+## Versioning
 In the absence of tags, branches, or releases in the original project SVN repository to call out a version, let's go
 with what [PyStemmer](https://pypi.python.org/pypi/PyStemmer) is currently using and tack on the SVN revision number at
 the end followed by my patch revision number (to fix anything weird that I introduce). For the initial version, we'll
 use 1.3.0.581.1.
 
-##License
+## License
 This is a copy of the details about the license from [here](http://snowball.tartarus.org/license.php):
 
 ```
@@ -42,6 +42,6 @@ We have not bothered to insert the licensing arrangement into the text of the
 Snowball software.
 ```
 
-##References
+## References
 * http://snowball.tartarus.org
 * https://github.com/snowballstem
